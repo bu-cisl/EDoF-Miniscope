@@ -21,7 +21,7 @@ Extended depth of field (EDoF) microscopy has emerged as a powerful solution to 
 
 The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This current iteration of the EDoF-Miniscope is designed to integrate on a tabletop setup for interrogating fixed samples. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides further information and files on the EDoF-Minisope.
 
-The part list of all optical and electronic components used in the EDoF-Miniscope prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
+The part list of all optical and electronic components used in the EDoF-Miniscope prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1PgIITukA03SGAjqEpHsR73N81aqUN8srO4x0Fl3sK8k/edit?usp=sharing).
 
 <p align="center">
   <img src="/Images/assembly.png">
