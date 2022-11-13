@@ -22,7 +22,10 @@ Extended depth of field (EDoF) microscopy has emerged as a powerful solution to 
 ## How to use
 ### 1) Hardware design
 
-The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This current iteration of the EDoF-Miniscope is designed to integrate on a tabletop setup for interrogating fixed samples. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides further information and files on the EDoF-Minisope.
+The directory 'CAD STL' contains the CAD files of the EDoF-Miniscope. This current iteration of the EDoF-Miniscope is designed to integrate on a tabletop setup for interrogating fixed samples. All CAD models are 3D printable on lab table-top 3D printers. The files are as follow:
+- "DOEscope v1.4.2 - Opt Zemax DWL 670 GRIN Opt Filter Holes.stl" contains the body of the EDoF-Miniscope presented in this work with slots for off-the-shelf optics and a custom DOE.
+- "PT3A Design v2.stl" is a custom adapter that holds a manufactured DOE and affixes to a PT3A stage so it may be aligned and glued to a GRIN lens to form a DOE-GRIN component (see Supplement).
+- "GRIN Holder for EDOF-Miniscopev1.stl" contains just the holder for a glued DOE-GRIN component. This allows for easy insertion of a DOE-GRIN component and the holder maybe attached to the EDoF-Miniscope body with dental apoxy.
 
 The part list of all optical and electronic components used in the EDoF-Miniscope prototype can be found [**here**](https://docs.google.com/spreadsheets/d/1PgIITukA03SGAjqEpHsR73N81aqUN8srO4x0Fl3sK8k/edit?usp=sharing).
 
