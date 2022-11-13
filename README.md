@@ -13,7 +13,7 @@ If you find this project help, please consider citing our work:
 Extended depth of field (EDoF) microscopy has emerged as a powerful solution to greatly increase the access into neuronal populations in table-top imaging platforms. Here, we present EDoF-Miniscope, which integrates an optimized thin and lightweight binary diffractive optical element (DOE) onto the gradient refractive index (GRIN) lens of a head-mounted fluorescence miniature microscope, i.e. “miniscope”. We achieve an alignment accuracy of 70 μm to allow a 2.8X depth-of-field extension between the twin foci. We optimize the phase profile across the whole back aperture through a genetic algorithm that considers the primary GRIN lens aberrations, optical property of the submersion media, and axial intensity loss from tissue scattering in a Fourier optics forward model. Compared to other computational miniscopes, our EDoF-Miniscope produces high-contrast signals that can be recovered by a simple algorithm and can successfully capture volumetrically distributed neuronal signals without significantly compromising the speed, signal-to-noise, signal-to-background, and maintain a comparable 0.9-μm lateral spatial resolution and the size and weight of the miniature platform. We demonstrate the robustness of EDoF-Miniscope against scattering by characterizing its performance in 5-μm and 10-μm beads embedded in scattering phantoms. We demonstrate that EDoF-Miniscope facilitates deeper interrogations of neuronal populations in a 100-μm thick mouse brain sample, as well as vessels in a mouse brain. Built from off-the-shelf components augmented by a customizable DOE, we expect that this low-cost EDoF-Miniscope may find utility in a wide range of neural recording applications.
 
 <p align="center">
-  <img src="/Images/Cover.PNG">
+  <img src="/Images/overview.PNG">
 </p>
 
 ## How to use
@@ -24,7 +24,7 @@ The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This cu
 The part list of all optical and electronic components used in the EDoF-Miniscope prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
 
 <p align="center">
-  <img src="/Images/Cover.PNG">
+  <img src="/Images/assembly.PNG">
 </p>
 
 ### 2) Zemax model
@@ -46,6 +46,6 @@ The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post
 The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
 
 <p align="center">
-  <img src="/Images/Cover.PNG">
+  <img src="/Images/genetic algorithm.PNG">
 </p>
 
