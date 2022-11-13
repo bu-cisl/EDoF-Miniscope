@@ -42,7 +42,8 @@ To use the Zemax models please follow these steps:
 2. Unzip "Zemax Files.zip"
 3. Copy the coating file "EDoF_Miniscope_Coating_just_Chroma.DAT" and "EDoF_Miniscope_Coating.DAT" to the directory "Zemax\Coatings\". The first file contains only the custom Chroma coatings. The second file contains the custom Chroma coatings as well as calls all the existing coatings available in the "Zemax\Coatings\" directory as of Zemax version 21.3.2.
 4. Copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\"  
-5. then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results.  
+5. Open "EDoF_Miniscope_Characterization.zmx" to access the model of the emission model of the EDoF-Miniscope. By having the corresponding .CFG and .ZDA in the same directory, this script will autogenerate pregenerated universal plots detailing how adjusting the components within the miniscope affects the PSF.
+6. Open "sequential_64520_miniscope_aberrations.zmx" to access our characterization of the aberrations within off-the-shelf GRIN lens used in the EDoF-Miniscope (Edmund Optics, #64520)
 
 ### 3) Matlab Genetic Algorithm, Simulation and Post-Porcessing
 
