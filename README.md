@@ -47,9 +47,11 @@ To use the Zemax models please follow these steps:
 
 ### 3) Matlab Genetic Algorithm, Simulation and Post-Porcessing
 
-The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post-Processing. Alls scripts were developed on Matlab R2020b and function on all versions between R2020b and the current tested version (R2022b). 
+The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post-Processing. Alls scripts were developed on Matlab R2020b and function on all versions between R2020b and the current tested version (R2022b).
 
-The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
+#### 3a) Genetic Algorithm Deployment
+
+The DOE optimization genetic algorithm is contained in the folder "Matlab/Genetic Algorithm". Ensure that the "Helpers", "Objects", "Supp_Analysis", "Export_Fig" are within the directory. Open "Optimize_Multfoci_dsGA.m" and adjust the user parameters to fit the desired optimization conditions (simulated enviornment and optimization parameters).
 
 <p align="center">
   <img src="/Images/genetic algorithm.png">
