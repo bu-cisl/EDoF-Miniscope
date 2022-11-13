@@ -24,7 +24,7 @@ The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This cu
 The part list of all optical and electronic components used in the EDoF-Miniscope prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
 
 <p align="center">
-  <img src="/Images/assembly.PNG">
+  <img src="/Images/assembly.png">
 </p>
 
 ### 2) Zemax model
@@ -46,6 +46,6 @@ The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post
 The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
 
 <p align="center">
-  <img src="/Images/genetic algorithm.PNG">
+  <img src="/Images/genetic algorithm.png">
 </p>
 
