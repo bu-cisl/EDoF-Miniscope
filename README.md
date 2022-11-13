@@ -6,7 +6,7 @@ This is an open source repository of the EDoF-Miniscope project in the Computati
 
 If you find this project help, please consider citing our work:
 
-[**Joseph Greene, Yujia Xue, Jeffrey Alido, Alex Matlock, Guorong Hu, Kivilcim Kilic, Ian Davison, and Lei Tian. "EDoF-Miniscope: pupil engineering for extended depth-of-field imaging in a fluorescence miniscope" BioRxiv**](https://doi.org/10.1101/2022.08.05.502947)
+[**Joseph Greene, Yujia Xue, Jeffrey Alido, Alex Matlock, Guorong Hu, Kivilcim Kilic, Ian Davison, and Lei Tian. "EDoF-Miniscope: pupil engineering for extended depth-of-field imaging in a fluorescence miniscope" BioRxiv (2022)**](https://doi.org/10.1101/2022.08.05.502947)
 
 ## EDoF-Miniscope Overview
 
@@ -19,16 +19,13 @@ Extended depth of field (EDoF) microscopy has emerged as a powerful solution to 
 ## How to use
 ### 1) Hardware design
 
-The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This current iteration of the EDoF-Miniscope is designed to integrate on a tabletop setup for interrogating fixed samples. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides an assembly of the CM<sup>2</sup> systems shown as below.
-
-<p align="center">
-  <img src="/Images/CAD_V1.PNG"width=600>
-</p>
-<p align="center">
-  <img src="/Images/CAD_V2.PNG"width=650>
-</p>
+The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This current iteration of the EDoF-Miniscope is designed to integrate on a tabletop setup for interrogating fixed samples. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides further information and files on the EDoF-Minisope.
 
 The part list of all optical and electronic components used in the EDoF-Miniscope prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1yO0x0pHvZYl-6WYT2bZiUERogTGQaifCt07Zwj_Rsxw/edit?usp=sharing).
+
+<p align="center">
+  <img src="/Images/Cover.PNG">
+</p>
 
 ### 2) Zemax model
 
@@ -42,23 +39,13 @@ To use the Zemax models please follow these steps:
 6.) Pre-rendered ray tracing data can be downloaded [**here**]     
     (https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing).
 
-#### CM<sup>2</sup> V1 Zemax model:
-<p align="center">
-  <img src="/Images/Zemax.PNG"width=800>
-</p>
-
-#### CM<sup>2</sup> V2 Zemax model:
-<p align="center">
-  <img src="/Images/zemax_v2.png"width=800>
-</p>
-
 ### 3) Matlab Genetic Algorithm, Simulation and Post-Porcessing
 
-The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post-Processing. Alls scripts were developed on Matlab R2020b and functions on all versions between R2020b and the current version (R2022b). 
+The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post-Processing. Alls scripts were developed on Matlab R2020b and function on all versions between R2020b and the current tested version (R2022b). 
 
 The script "cm2_related_code.m" in the "Algorithm" folder provides a demo of CM<sup>2</sup> 3D reconstruction pipeline on a simulated measurement using [down-sampled PSFs](https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing). A full-scale experimental measurement is also provided under the "Algorithm" direcory, which requires large system memory to run. The GIF file below shows the flying-through of a reconstructed 3D object (a fluorescent fiber sample) from an experimental measurement.
 
 <p align="center">
-  <img src="/Images/example_recon.gif"width=600>
+  <img src="/Images/Cover.PNG">
 </p>
 
