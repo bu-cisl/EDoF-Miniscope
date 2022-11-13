@@ -38,13 +38,11 @@ All information on the tabletop setup and our procedure for integrating as well 
 ### 2) Zemax model
 
 To use the Zemax models please follow these steps:  
-1. cloning this repository  
-2. copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\"  
-3. copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\"  
-4. copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\"  
+1. Cloning this repository  
+2. Unzip "Zemax Files.zip"
+3. Copy the coating file "EDoF_Miniscope_Coating_just_Chroma.DAT" and "EDoF_Miniscope_Coating.DAT" to the directory "Zemax\Coatings\". The first file contains only the custom Chroma coatings. The second file contains the custom Chroma coatings as well as calls all the existing coatings available in the "Zemax\Coatings\" directory as of Zemax version 21.3.2.
+4. Copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\"  
 5. then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results.  
-6. Pre-rendered ray tracing data can be downloaded [**here**]     
-    (https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing).  
 
 ### 3) Matlab Genetic Algorithm, Simulation and Post-Porcessing
 
