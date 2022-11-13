@@ -1,6 +1,6 @@
 # EDoF-Miniscope
 
-This is an open source repository of the EDoF-Miniscope project in the Computational Imaging Systems Lab (CISL) at Boston University. We aim to develop next-generation head-mounted fluorescence microscope, known as miniscopes, that push the imaging capacity in scattering media by integrating customizable and optimized diffractive optics. In this repository, we provide: <br /> 
+This is an open source repository of the EDoF-Miniscope project in the Computational Imaging Systems Lab (CISL) at Boston University. We aim to develop next-generation head-mounted fluorescence microscopes, known as miniscopes, that push the imaging capacity in scattering media by integrating customizable and optimized diffractive optics. In this repository, we provide: <br /> 
 - The hardware design of the EDoF-Miniscope in its current tabletop iteration <br />  
 - The Zemax models of the EDoF-Miniscope system including the ZMX files, spectra data and coating profile <br /> 
 - Matlab scripts containing the genetic algorithm used to optimize the diffractive optics, optical simulations to predict the behavior, and a simple post-processing algorithm to extract the in-focus component
@@ -24,7 +24,9 @@ Extended depth of field (EDoF) microscopy has emerged as a powerful solution to 
 
 The directory 'CAD_models' contains the CAD files of the EDoF-Miniscope. This current iteration of the EDoF-Miniscope is designed to integrate on a tabletop setup for interrogating fixed samples. All CAD models are 3D printable on lab table-top 3D printers. The subdirectory 'assembly' further provides further information and files on the EDoF-Minisope.
 
-The part list of all optical and electronic components used in the EDoF-Miniscope prototypes can be found [**here**](https://docs.google.com/spreadsheets/d/1PgIITukA03SGAjqEpHsR73N81aqUN8srO4x0Fl3sK8k/edit?usp=sharing).
+The part list of all optical and electronic components used in the EDoF-Miniscope prototype can be found [**here**](https://docs.google.com/spreadsheets/d/1PgIITukA03SGAjqEpHsR73N81aqUN8srO4x0Fl3sK8k/edit?usp=sharing).
+
+All information on the tabletop setup and our procedure for integrating as well as aligning the EDoF-Miniscope can be found in our supplement.
 
 <p align="center">
   <img src="/Images/assembly.png">
@@ -33,12 +35,12 @@ The part list of all optical and electronic components used in the EDoF-Miniscop
 ### 2) Zemax model
 
 To use the Zemax models please follow these steps:  
-1.) cloning this repository  
-2.) copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\"  
-3.) copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\"  
-4.) copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\"  
-5.) then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results.  
-6.) Pre-rendered ray tracing data can be downloaded [**here**]     
+- 1 cloning this repository  
+- 2 copy the coating file "cm2_coating_profiles_ver2.DAT" to the directory "Zemax\Coatings\"  
+- 3 copy the spectra files "gfp_emission.spcd" and "led_spectrum_interp.spcd" to the directory "Zemax\Objects\Sources\Spectrum Files\"  
+- 4 copy the CAD files (end with '.stl') to the directory "Zemax\Objects\CAD Files\"  
+- 5 then open "CM2_V1_opensource.zos" or "CM2_V2_opensource.zos" in Zemax to view the CM<sup>2</sup> design and ray tracing results.  
+- 6 Pre-rendered ray tracing data can be downloaded [**here**]     
     (https://drive.google.com/drive/folders/10xuGhUDethVntPEySfjDurRVyuz1iKvr?usp=sharing).  
 
 ### 3) Matlab Genetic Algorithm, Simulation and Post-Porcessing
