@@ -51,9 +51,10 @@ The Matlab folder contains three folders: Genetic Algorithm, Simulation and Post
 
 #### 3a) Genetic Algorithm Deployment
 
-The DOE optimization genetic algorithm is contained in the folder "Matlab/Genetic Algorithm". Ensure that the "Helpers", "Objects", "Supp_Analysis", "Export_Fig" are within the directory. Open "Optimize_Multfoci_dsGA.m" and adjust the user parameters to fit the desired optimization conditions (simulated enviornment and optimization parameters).
+The DOE optimization genetic algorithm is contained in the folder "Matlab/Genetic Algorithm". Ensure that the "Helpers", "Objects", "Supp_Analysis", "Export_Fig" are within the directory. Open "Optimize_DOE_GA.m" and adjust the user parameters to fit the desired optimization conditions (simulated enviornment and optimization parameters). Run the genetic algorithm. The algorithm will generate a new folder containing figures and parameters detailing the optimized DOE. We anaylzed the stability of the optimied solution as a function of genetic algorithm parameters in the supplement.
 
 <p align="center">
   <img src="/Images/genetic algorithm.png">
 </p>
 
+#### 3b) 
