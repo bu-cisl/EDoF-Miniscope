@@ -57,4 +57,11 @@ The DOE optimization genetic algorithm is contained in the folder "Matlab/Geneti
   <img src="/Images/genetic algorithm.png">
 </p>
 
-#### 3b) 
+#### 3b) Post-Processing
+
+For post-processing, we use a filter described in Cathie Ventalon, Rainer Heintzmann, and Jerome Mertz, "Dynamic speckle illumination microscopy with wavelet prefiltering," Opt. Lett. 32, 1417-1419 (2007). We apply this filter to a single frame or stack of acquired data in the scripts provided in "Post-Processing". These scripts use the native image size and a single tunable parameter to filter the frames. 
+
+<p align="center">
+  <img src="/Images/wavelet.png">
+</p>
+
